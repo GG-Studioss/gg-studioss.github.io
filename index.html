@@ -225,18 +225,28 @@
 	  .game-icon {
     width: 65px;
     height: 65px;
+    background: linear-gradient(135deg, #7257ff, #42c7ff);
     border-radius: 15px;
-    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 27px;
     margin-bottom: 22px;
 }
 
-.game-icon img {
+/* Only for real game images */
+.game-icon.image-icon {
+    overflow: hidden;
+    padding: 0;
+    background: none;
+}
+
+.game-icon.image-icon img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
 }
-
 	  .game-card h3 {
 	  margin-bottom: 8px;
 	  font-size: 21px;
