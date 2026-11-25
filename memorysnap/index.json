@@ -1,0 +1,34 @@
+{
+	"poki_template_version": 1,
+	"extra_html": {
+	  "head": [
+		"<!-- will be copied to the resulting head //-->"
+	  ],
+	  "body": [
+		"<!-- will be copied to the resulting body //-->",
+		"<!-- will also be copied to the resulting body //-->"
+	  ]
+	},
+	"background_color": "#231F20",
+	"background_filename": "",
+	"code_filename": "785b28a3e3cb17812643c3983e0523df.wasm",
+	"company_name": "GG STUDIO",
+	"data_filename": "852c79a3b092e38931586fd128635c51.data",
+	"decompression_fallback": "",
+	"development_player": "false",
+	"framework_filename": "40c93022223e91c28516581cba792966.framework.js",
+	"height": "600",
+	"loader_filename": "9565fcd785809b656f4a9aac5134105d.loader.js",
+	"memory_filename": "",
+	"product_name": "Memory Snap Photographic Recall",
+	"product_version": "1.0",
+	"splash_screen_style": "Dark",
+	"symbols_filename": "",
+	"unity_version": "6000.3.8f1",
+	"use_data_caching": "true",
+	"use_threads": "false",
+	"use_wasm": "true",
+	"use_webgl_1_0": "false",
+	"use_webgl_2_0": "true",
+	"width": "960"
+  }
